@@ -52,15 +52,13 @@ div.services {
 	font-size:13px;
 	line-height:22px;
 	color:#444444;
-	padding:0;
+
 }
-a, a:link {
+a {
 	color:#e00966;
 	text-decoration:none;
 }
-a:hover {
-	color:#000;
-}
+
 h1, h2, h3, {
 	font-size:100%;
 	font-weight:normal
@@ -96,4 +94,19 @@ h3.projects {
 	font-size: 40px;
 	text-align: center;
 	color: black;
+	text-align: left;
+}
+.column1 {
+	float: left;
+	color: black;
+	width: 33.33%;
+}
+.column2 {
+	background-color: peachpuff;
+	color: black;
+	width: 33.33%;
+	float: right;
+}
+body {
+	background-color: peachpuff;
 }
