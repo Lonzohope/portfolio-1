@@ -110,3 +110,19 @@ h3.projects {
 body {
 	background-color: white;
 }
+footer {
+	clear:both;
+	border-top:1px solid #e5e4e4;
+	padding:20px 0;
+}
+footer .copyright {
+	float:left;
+	margin-bottom:30px;
+}
+footer .copyright a {
+	color:#444444;
+	font-weight:bold;
+}
+footer .copyright a:hover {
+	color:#e00966;
+}
