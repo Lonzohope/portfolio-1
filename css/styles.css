@@ -23,3 +23,22 @@ header .main-navigation li a {
 	font-weight:600;
 	letter-spacing:2px;
 }
+.hero-image {
+  background-image: url("images/landingpage.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: inherit;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+	float: left;
+}
